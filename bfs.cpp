@@ -11,6 +11,7 @@ class NoPathExistsException: public runtime_error{
     NoPathExistsException() : runtime_error("No path exists between the nodes.") {}
 };
 
+
 class shortestPath{
     private:
     Graph graph;
